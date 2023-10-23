@@ -19,8 +19,8 @@
 </template>
 
 <script>
-// import { getRunFiles } from '_api/api'
-import { getRunFiles } from '_api/mock_api'
+import { getRunFiles } from '_api/api'
+// import { getRunFiles } from '_api/mock_api'
 import { ref } from 'vue'
 export default {
   name: 'RunFiles',

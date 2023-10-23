@@ -20,8 +20,8 @@
 </template>
 
 <script>
-// import { getABFiles } from '_api/api'
-import { getABFiles } from '_api/mock_api'
+import { getABFiles } from '_api/api'
+// import { getABFiles } from '_api/mock_api'
 import { ref } from 'vue'
 export default {
   name: 'AbFiles',

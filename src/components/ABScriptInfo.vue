@@ -22,8 +22,8 @@
 </template>
 
 <script>
-// import { getABScript } from '_api/api'
-import { getABScript } from '_api/mock_api'
+import { getABScript } from '_api/api'
+// import { getABScript } from '_api/mock_api'
 import { ref } from 'vue'
 export default {
   name: 'AbScriptInfo',

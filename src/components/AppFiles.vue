@@ -19,8 +19,8 @@
 </template>
 
 <script>
-// import { getAppFiles } from '_api/api'
-import { getAppFiles } from '_api/mock_api'
+import { getAppFiles } from '_api/api'
+// import { getAppFiles } from '_api/mock_api'
 import { ref } from 'vue'
 export default {
   name: 'AppFiles',
