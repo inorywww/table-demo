@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { ElMessage } from 'element-plus'
 
-const baseUrl = 'http://127.0.0.1:9001'
+const baseUrl = 'http://localhost:8000'
 
 const __DEFAULT_PARAMS__ = {}
 
