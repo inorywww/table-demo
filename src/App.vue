@@ -16,10 +16,10 @@
 </template>
 
 <script>
-import AbScriptInfo from './components/ABScriptInfo.vue'
-import RunFiles from './components/RunFiles.vue'
-import AppFiles from './components/AppFiles.vue'
-import ABFiles from './components/ABFiles.vue'
+import AbScriptInfo from './components2/ABScriptInfo.vue'
+import RunFiles from './components2/RunFiles.vue'
+import AppFiles from './components2/AppFiles.vue'
+import ABFiles from './components2/ABFiles.vue'
 import { ref } from 'vue'
 export default {
   name: 'App',

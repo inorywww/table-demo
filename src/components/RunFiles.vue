@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import { getRunFiles } from '_api/api'
-// import { getRunFiles } from '_api/mock_api'
+// import { getRunFiles } from '_api/api'
+import { getRunFiles } from '_api/mock_api'
 import { ref } from 'vue'
 export default {
   name: 'RunFiles',
@@ -41,6 +41,9 @@ export default {
         sort // ascending(生序) or descending(降序)
       }).then((res) => {
         tableData.value = res.data.list
+        tableData.value.forEach(item => {
+          item.file_modifiedtime = item.file_modifiedtime.replace('T', ' ').replace('Z', '')
+        })
         pagination.value.total = res.data.total
       })
     }

@@ -94,7 +94,7 @@ export const ABScriptInfo = [
 export const runFiles = [
   {
     name: "John Doe",
-    file_modifiedtime: "2023/10/19 10:30",
+    file_modifiedtime: "2023/10/19T10:30Z",
     createdtime: "2023/10/19 10:30",
     file_path: "D:\\ab\\tlou1.pm"
   },
